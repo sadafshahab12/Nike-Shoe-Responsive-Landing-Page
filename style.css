@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 7.2rem;
+}
+.navbar {
+  width: 100%;
+  height: 7.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+.logo {
+  padding: 1.5rem 0 0 8.5rem;
+}
+.logo img {
+  width: 7.6rem;
+  height: 4.2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.nav-links li {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+.nav-login-btn {
+  display: none;
+}
+.login-btn {
+  width: 7.5rem;
+  height: 3.1rem;
+  position: relative;
+  right: 8rem;
+}
+.login-btn button {
+  padding: 0.6rem 1.6rem;
+  cursor: pointer;
+  background-color: #d01c28;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+/* hero sec  */
+section {
+  padding: 10.2rem 0rem 0 12rem;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.column-1 {
+  width: 59.5rem;
+}
+.column-1 h1 {
+  width: 100%;
+  font-weight: 800;
+  font-size: 10.8rem;
+  line-height: 10.2rem;
+  font-family: "Poppins", sans-serif;
+}
+.column-1 .shoe-info {
+  width: 40.4rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  padding: 2.5rem 0;
+  line-height: 2.4rem;
+  color: #5a5959;
+  font-family: "Poppins", sans-serif;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.shop-now {
+  width: 15rem;
+  height: 4.1rem;
+  font-weight: 600;
+  background-color: #d01c28;
+  border: 1px solid #d01c28;
+  color: #fff;
+  font-size: 2.4rem;
+  border: none;
+  padding: 0.6rem 1.6rem;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+.category {
+  width: 14.1rem;
+  height: 4.1rem;
+  font-weight: 600;
+  background-color: transparent;
+  color: #5a5959;
+  font-size: 2.4rem;
+  padding: 0.6rem 1.6rem;
+  cursor: pointer;
+  border: 1px solid #000;
+  font-family: "Inter", sans-serif;
+}
+
+.available {
+  color: #5a5959;
+  font-weight: 400;
+  padding: 3rem 0 0;
+  width: 13.1rem;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+.site-icon {
+  display: flex;
+  align-items: center;
+  gap: 2.75rem;
+  padding: 3rem 0 10rem;
+}
+
+.site-icon img {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+.column-2 {
+  height: 100%;
+  padding: 5rem 0;
+}
+.column-2 img {
+  width: 53rem;
+  position: relative;
+  top: 1rem;
+  right: 10rem;
+  filter: drop-shadow(13px 25px 10px rgba(0, 0, 0, 0.5));
+}
+.nav-logo {
+  display: none;
+}
+.cross-icon,
+.hambur-icon {
+  position: absolute;
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.hambur-icon {
+  top: 50%;
+  right: 3rem;
+  transform: translateY(-50%);
+}
+.cross-icon {
+  top: 2rem;
+  right: 3rem;
+}
+#check {
+  display: none;
+}
